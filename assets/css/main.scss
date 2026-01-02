@@ -90,3 +90,19 @@ html[data-theme="dark"] h2,
 html[data-theme="dark"] h3 {
   color: #f2ebff;
 }
+
+/* ================================
+   🔥 FIX Moonwalk background wrapper
+   ================================ */
+
+main,
+.page-content,
+.container {
+  background: transparent;
+}
+
+html[data-theme="dark"] main,
+html[data-theme="dark"] .page-content,
+html[data-theme="dark"] .container {
+  background: linear-gradient(180deg, #120c16, #1a1222);
+}
