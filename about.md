@@ -6,7 +6,7 @@ title: About
 <div class="blog-card">
   <div class="blog-links">
     <p>Otro blog: <a href="https://betxrb.blogspot.com" target="_blank" rel="noopener">Betxrb</a></p>
-     <p>Otro blog: <a href="[https://betxrb.blogspot.com](https://betxrb.wordpress.com)" target="_blank" rel="noopener">Betxrb</a></p>
+     <p>Otro blog: <a href="https://betxrb.blogspot.com" target="_blank" rel="noopener">Betxrb</a></p>
     <p>Podcast: <a href="2r72ucw3EEG5BOCjFyEStx" target="_blank" rel="noopener">Betxrb</a></p>
     <p>Substack: <a href="https://substack.com/@betxrb" target="_blank" rel="noopener">Betx</a></p>
     <p>Tumblr: <a href="https://www.tumblr.com/betxrb?source=share" target="_blank" rel="noopener">Betx</a></p>
@@ -18,5 +18,6 @@ title: About
     <br><br>
     Espero que le sea entretenido, querido lector, y también que sirva de algo el leer esto,
     ya sea para no sentirse solxs o simplemente pasar el rato.
+     **Este texto cambia cuando yo cambio.**
   </div>
 </div>
