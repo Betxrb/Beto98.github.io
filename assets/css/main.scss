@@ -5,48 +5,62 @@
 @import "list";
 @import "syntax";
 
-/* 🌸 Girly Tumblr × Substack override — Moonwalk */
+/* ================================
+   🌸 DAY MODE — Girly / Substack
+   ================================ */
+@media (prefers-color-scheme: light) {
 
-/* Fondo general */
-body {
-  background: linear-gradient(180deg, #fdf6fb, #f7f3ff);
-  color: #2f2a33;
-  font-family: "Libre Baskerville", Georgia, serif;
+  body {
+    background: linear-gradient(180deg, #fdf6fb, #f7f3ff);
+    color: #2f2a33;
+    font-family: "Libre Baskerville", Georgia, serif;
+  }
+
+  a {
+    color: #b26ad8;
+  }
+
+  .post,
+  .post-body,
+  .content {
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 20px 40px rgba(160, 120, 200, 0.15);
+  }
+
+  .post::before {
+    content: "♡";
+    color: #d18ce0;
+  }
 }
 
-/* Links */
-a {
-  color: #b26ad8;
-}
+/* ================================
+   🦇 NIGHT MODE — Tumblr / Pastel-Goth
+   ================================ */
+@media (prefers-color-scheme: dark) {
 
-a:hover {
-  text-decoration: underline;
-}
+  body {
+    background: linear-gradient(180deg, #141018, #1b1422);
+    color: #e7e1ee;
+    font-family: "Libre Baskerville", Georgia, serif;
+  }
 
-/* Contenedor real del post en Moonwalk */
-.post,
-.post-body,
-.content {
-  background: rgba(255, 255, 255, 0.92);
-  padding: 38px;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(160, 120, 200, 0.15);
-  line-height: 1.75;
-}
+  a {
+    color: #d7a6ff;
+  }
 
-/* Detalle girly */
-.post::before {
-  content: "♡";
-  display: block;
-  text-align: center;
-  font-size: 1.4rem;
-  color: #d18ce0;
-  margin-bottom: 20px;
-  opacity: 0.8;
-}
+  .post,
+  .post-body,
+  .content {
+    background: rgba(28, 22, 36, 0.96);
+    box-shadow: 0 20px 40px rgba(120, 80, 160, 0.35);
+  }
 
-/* Títulos */
-h1, h2, h3 {
-  font-family: "Inter", system-ui, sans-serif;
-  font-weight: 500;
+  .post::before {
+    content: "✧";
+    color: #cfa3ff;
+  }
+
+  h1, h2, h3 {
+    color: #f0eaff;
+  }
 }
