@@ -5,16 +5,16 @@
 @import "list";
 @import "syntax";
 
+/* 🌸 Girly Tumblr × Substack override — Moonwalk */
+
+/* Fondo general */
 body {
   background: linear-gradient(180deg, #fdf6fb, #f7f3ff);
   color: #2f2a33;
   font-family: "Libre Baskerville", Georgia, serif;
 }
 
-.site-header {
-  margin-bottom: 40px;
-}
-
+/* Links */
 a {
   color: #b26ad8;
 }
@@ -23,7 +23,10 @@ a:hover {
   text-decoration: underline;
 }
 
-.post-content {
+/* Contenedor real del post en Moonwalk */
+.post,
+.post-body,
+.content {
   background: rgba(255, 255, 255, 0.92);
   padding: 38px;
   border-radius: 20px;
@@ -31,7 +34,8 @@ a:hover {
   line-height: 1.75;
 }
 
-.post-content::before {
+/* Detalle girly */
+.post::before {
   content: "♡";
   display: block;
   text-align: center;
@@ -41,6 +45,7 @@ a:hover {
   opacity: 0.8;
 }
 
+/* Títulos */
 h1, h2, h3 {
   font-family: "Inter", system-ui, sans-serif;
   font-weight: 500;
